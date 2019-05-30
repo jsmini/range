@@ -75,7 +75,7 @@ Browser
 
 ## Document
 
-[API](https://github.com/jsmini/range/blob/master/doc/api.md)
+[API](./doc/api.md)
 
 ## Contributing Guide  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
 when initialize, install dependencies 
