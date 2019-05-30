@@ -7,7 +7,9 @@
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/base.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/base)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/base.svg)](http://isitmaintained.com/project/jsmini/base "Percentage of issues still open")
 
-一组小而美的JS库，jsmini脚手架，fork或clone本仓库，即可搭建完成一个新的jsmini库
+JavaScript method,  generate a range within the supplied bounds
+
+JavaScript的范围函数，根据给定的边界生成数字/字母范围，可指定步长
 
 [English](./README.md) | 简体中文
 
@@ -37,41 +39,41 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @jsmini/base
+$ npm install --save @jsmini/range
 ```
 
 如果你是node环境
 
 ```js
-var name = require('@jsmini/base').name;
+var name = require('@jsmini/range').name;
 ```
 
 如果你是webpack等环境
 
 ```js
-import { name } from '@jsmini/base';
+import { name } from '@jsmini/range';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@jsmini/base/dist/index.aio.js'], function (jsmini_base) {
-    var name = jsmini_base.name;
+requirejs(['node_modules/@jsmini/range/dist/index.aio.js'], function (jsmini_range) {
+    var name = jsmini_range.name;
 })
 ```
 
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@jsmini/base/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/range/dist/index.aio.js"></script>
 
 <script>
-    var name = jsmini_base.name;
+    var name = jsmini_range.name;
 </script>
 ```
 
 ## 文档
-[API](https://github.com/jsmini/base/blob/master/doc/api.md)
+[API](./doc/api.md)
 
 ## 贡献指南  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
 首次运行需要先安装依赖
@@ -116,12 +118,12 @@ $ npm run rename # 重命名命令
 ```
 
 ## 贡献者列表
-[contributors](https://github.com/jsmini/base/graphs/contributors)
+[contributors](https://github.com/jsmini/range/graphs/contributors)
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/jsmini/base/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/range/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/jsmini/base/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/range/blob/master/TODO.md)
 
 ## 谁在使用

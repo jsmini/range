@@ -7,9 +7,9 @@
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/range.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/range)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/range.svg)](http://isitmaintained.com/project/jsmini/range "Percentage of issues still open")
 
-jsmini's scaffold. fork / clone this library. and then you can create a new jsmini library.
+JavaScript method,  generate a range within the supplied bounds
 
-一组小而美的JS库，jsmini脚手架，fork或clone本仓库，即可搭建完成一个新的jsmini库
+JavaScript的范围函数，根据给定的边界生成数字/字母范围，可指定步长
 
 English | [简体中文](./README-zh_CN.md)
 
