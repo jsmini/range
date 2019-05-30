@@ -121,9 +121,9 @@ $ npm run rename # 重命名命令
 [contributors](https://github.com/jsmini/range/graphs/contributors)
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/jsmini/range/blob/master/CHANGELOG.md)
+[CHANGELOG.md](./CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/jsmini/range/blob/master/TODO.md)
+[TODO.md](./TODO.md)
 
 ## 谁在使用

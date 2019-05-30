@@ -119,12 +119,12 @@ rename  project. you need to edit project name when initialize project or anytim
 $ npm run rename # rename command
 ```
 ## Contributors
-[contributors](https://github.com/jsmini/range/graphs/contributors)
+[contributors](https://github.com/jsmini/range/graphs/contributors) 
 
 ## CHANGELOG
-[CHANGELOG.md](https://github.com/jsmini/range/blob/master/CHANGELOG.md)
+[CHANGELOG.md](./CHANGELOG.md)
 
 ## TODO
-[TODO.md](https://github.com/jsmini/range/blob/master/TODO.md)
+[TODO.md](./TODO.md)
 
 ## who is using
