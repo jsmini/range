@@ -81,6 +81,7 @@ describe('unit test', function() {
             expect(range('J', 2)).to.eql(['A', 'C', 'E', 'G', 'I']);
         });
     });
+
     describe('ruby style range', function() {
         it('1..5', function() {
             expect(range('1..5')).to.eql([1, 2, 3, 4, 5]);

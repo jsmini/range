@@ -6,7 +6,9 @@ JS范围，输入某一数字或者字母始末结点，返回一个从开始变
 
 函数参数和返回值
 
-- param {string|number}[string|number] [number]  第一个参数可以是字符串也可以是数字，第二个参数可以是字符串也可以是数字，第三个参数是数字
+- param {string|number} from  第一个参数可以是字符串也可以是数字
+- param {string|number} [to] 第二个参数可以是字符串也可以是数字
+- param {number} [step] 第三个参数是数字
 - return { array }  返回一个在指定变化范围内变化的数组
 
 举个例子（要包含代码用例）

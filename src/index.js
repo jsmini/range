@@ -1,4 +1,11 @@
 export function range(from, to, step) {
+    // 判断参数类型
+    const fromType = typeof from;
+
+    if (fromType !== 'string' && fromType !== 'number') {
+        return [];
+    }
+
     let letters = 'abcdefghijklmnopqrstuvwxyz';
     letters = letters.toUpperCase() + letters + letters.toUpperCase();
     /**
@@ -62,10 +69,4 @@ export function range(from, to, step) {
     }
     if (isExclusive) res.pop(); // 不包含末尾元素，弹出最后一个
     return res;
-    // range.equals = function (one, two) {
-    //     return one.join() == two.join()
-    // }
-    // range.overlaps = function (one, two) {
-    //     return one[0] <= two.slice(-1)[0] && two[0] <= one.slice(-1)[0]
-    // }
 }
