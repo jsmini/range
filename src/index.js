@@ -25,14 +25,14 @@ function rangeChar(start, stop, step) {
     }
     step = Math.ceil(step);
     step = (isNaN(step) || step === 0) ? 1 : step;
-    // 保证step正确
-    if (start > stop && step > 0) {
-        step = -step;
-    }
 
     const arr = [];
     start = CHARTER.indexOf(start);
     stop = CHARTER.indexOf(stop);
+    // 保证step正确
+    if (start > stop && step > 0) {
+        step = -step;
+    }
 
     for (let i = start; start > stop ? i > stop : i < stop; i += step) {
         arr.push(CHARTER[i]);
