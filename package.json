@@ -1,6 +1,6 @@
 {
   "name": "@jsmini/range",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "范围函数，根据给定的边界生成数字/字母范围，可指定步长",
   "main": "dist/index.js",
   "jsnext:main": "dist/index.esm.js",
