@@ -1,6 +1,6 @@
 var expect = require('expect.js');
 
-var range = require('../dist/index.js').range;
+var range = require('../src/index.js').range;
 
 describe('unit test', function() {
     this.timeout(1000);

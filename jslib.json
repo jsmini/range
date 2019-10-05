@@ -1,0 +1,9 @@
+{
+    "name": "range",
+    "npmname": "@jsmini/range",
+    "umdname": "jsmini_range",
+    "username": "jsmini",
+    "type": "js",
+    "lang": "zh",
+    "version": "1.4.0"
+}
