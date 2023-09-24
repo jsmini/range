@@ -1,7 +1,7 @@
 {
   "name": "@jsmini/range",
-  "version": "0.1.3",
-  "description": "范围函数，根据给定的边界生成数字/字母范围，可指定步长",
+  "version": "0.2.0",
+  "description": "A range function for JavaScript, generates numbers/letters within a given boundary, with an option to specify the step length.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "sideEffects": false,
