@@ -1,14 +1,13 @@
-# [range](https://github.com/jsmini/range) 
+# [range](https://github.com/jsmini/range)
 
 [![](https://img.shields.io/badge/Powered%20by-jslib%20range-brightgreen.svg)](https://github.com/yanhaijing/jslib-range)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/range/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jsmini/range.svg?branch=master)](https://travis-ci.org/jsmini/range)
-[![Coveralls](https://img.shields.io/coveralls/jsmini/range.svg)](https://coveralls.io/github/jsmini/range)
+[![CI](https://github.com/jsmini/range/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jsmini/range/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/badge/npm-0.1.3-orange.svg)](https://www.npmjs.com/package/@jsmini/range)
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/range.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/range)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/range.svg)](http://isitmaintained.com/project/jsmini/range "Percentage of issues still open")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/range.svg)](http://isitmaintained.com/project/jsmini/range 'Percentage of issues still open')
 
-JavaScript method,  generate a range within the supplied bounds
+JavaScript method, generate a range within the supplied bounds
 
 JavaScript的范围函数，根据给定的边界生成数字/字母范围，可指定步长
 
@@ -18,11 +17,11 @@ English | [简体中文](./README-zh_CN.md)
 
 unit test ensure it supports the following environments.
 
-| IE/Edge | Chrome | Firefox | Safari | Opera | IOS  | Android | Node  |
-| ------- | ------ | ------- | ------ | ----- | ---- | ------- | ----- |
-| 6+      | 23+    | 4+      | 6+     | 10+   | 5+   | 2.3+    | 0.10+ |
+| IE/Edge | Chrome | Firefox | Safari | Opera | IOS | Android | Node  |
+| ------- | ------ | ------- | ------ | ----- | --- | ------- | ----- |
+| 6+      | 23+    | 4+      | 6+     | 10+   | 5+  | 2.3+    | 0.10+ |
 
-**Notice:  builds depends on ES5. In order to support IE6-8,  you should import  [es5-shim](http://github.com/es-shims/es5-shim/) . See example in [demo/demo-global.html](./demo/demo-global.html)**
+**Notice: builds depends on ES5. In order to support IE6-8, you should import [es5-shim](http://github.com/es-shims/es5-shim/) . See example in [demo/demo-global.html](./demo/demo-global.html)**
 
 ## Directory
 
@@ -38,6 +37,7 @@ unit test ensure it supports the following environments.
 ```
 
 ## Usage
+
 npm installation
 
 ```bash
@@ -59,9 +59,12 @@ import { name } from '@jsmini/range';
 Require.js
 
 ```js
-requirejs(['node_modules/@jsmini/range/dist/index.aio.js'], function (jsmini_range) {
+requirejs(
+  ['node_modules/@jsmini/range/dist/index.aio.js'],
+  function (jsmini_range) {
     var name = jsmini_range.name;
-})
+  },
+);
 ```
 
 Browser
@@ -70,7 +73,7 @@ Browser
 <script src="node_modules/@jsmini/range/dist/index.aio.js"></script>
 
 <script>
-    var name = jsmini_range.name;
+  var name = jsmini_range.name;
 </script>
 ```
 
@@ -78,8 +81,9 @@ Browser
 
 [API](./doc/api.md)
 
-## Contributing Guide  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
-when initialize, install dependencies 
+## Contributing Guide ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+when initialize, install dependencies
 
 ```bash
 $ npm install
@@ -91,13 +95,13 @@ builds your code for production to `build` folder
 $ npm run build
 ```
 
-run unit test.  notice: borwser enviroment need to test manually.  test file is in `test/browser`
+run unit test. notice: borwser enviroment need to test manually. test file is in `test/browser`
 
 ```bash
 $ npm test
 ```
 
-change  the  version in package.json and README.md, add your description in CHANGELOG.md, and then release it happily.
+change the version in package.json and README.md, add your description in CHANGELOG.md, and then release it happily.
 
 ```bash
 $ npm run release
@@ -109,7 +113,7 @@ publish the new package to npm
 $ npm publish --access=public
 ```
 
-rename  project. you need to edit project name when initialize project or anytime you want to rename the project . you need to rename `formName` and `toname` in file `rename.js`,which will automatically rename project name in the following files
+rename project. you need to edit project name when initialize project or anytime you want to rename the project . you need to rename `formName` and `toname` in file `rename.js`,which will automatically rename project name in the following files
 
 - README.md
 - package.json
@@ -119,13 +123,17 @@ rename  project. you need to edit project name when initialize project or anytim
 ```bash
 $ npm run rename # rename command
 ```
+
 ## Contributors
-[contributors](https://github.com/jsmini/range/graphs/contributors) 
+
+[contributors](https://github.com/jsmini/range/graphs/contributors)
 
 ## CHANGELOG
+
 [CHANGELOG.md](./CHANGELOG.md)
 
 ## TODO
+
 [TODO.md](./TODO.md)
 
 ## who is using
